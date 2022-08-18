@@ -1,5 +1,6 @@
 package com.example.JPADemo.student;
 
+import com.example.JPADemo.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,4 +21,6 @@ public class StudentController {
     Student createStudent(@RequestBody Student student){
         return studentRepository.save(student);
     }
+
+
 }

@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+#git remote add origin https://github.com/sahtatmyatthu/JAPDemo.git
+#git branch -M SpringBoot
+#git push -u origin SpringBoot
